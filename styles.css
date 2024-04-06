@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: rgb(70, 70, 70);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+h1 a:first-child{
+    margin-right: 25px;
+}
+
+h2{
+    text-align: center !important; 
+    color: blue;
+}
+
+.hi-container{
+    background-color: rgb(21, 21, 22);
+    display: flex;
+    align-items: center; 
+}
+
+.hi-content{
+    padding: 20px; 
+    color:white;
+}
+
+#backround{
+    max-height: 500px;
+    margin-left: auto; 
+    object-fit: cover;
+}
+
+#h2-heading{
+    text-align: center !important; 
+    background-color: rgb(70, 70, 70);
+    color: white;
+    margin: 0;
+}
+
+.img-class{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: gray;
+}
+
+.item{
+    text-align: center !important; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    object-fit: cover;
+}
+
+.details{
+    margin-top: 10px; 
+    color: white;
+}
+
+#about-des{
+    display: flex;
+    background-color: black;
+}
+
+#description{
+    width: 50%;
+    color: white;
+    margin-left: 20px;
+}
+
+#about{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%; 
+    object-fit: cover;
+}
+
+.contact{
+    text-align: center !important;
+    background-color: rgb(21, 21, 22);
+    padding: 20px 0;
+    color: white;
+}
+
